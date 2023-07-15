@@ -41,6 +41,7 @@ body {
     z-index: -1;
 }
 
+
 /* ========= HEADER ============*/
 /* Nav */
 
@@ -87,6 +88,7 @@ body {
 .nav__close {
     display: var(--show, none);
 }
+
 
 /* Hero Container */
 
