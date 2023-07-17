@@ -120,3 +120,42 @@ body {
     padding: 13px 30px;
     border-radius: 32px;
 }
+
+
+/* ========= FOOTER ============*/
+/* Footer */
+.footer{
+    background-color: #1D293F;
+}
+
+.footer__copy{    
+    --padding-container: 30px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.footer__menu{        
+    border-bottom: 1px solid #fff;
+    padding-bottom: 20px;
+}
+
+.nav--footer{    
+    display: grid;    
+    justify-content: center;
+}
+
+.footer__social{
+    padding-top: 15px;
+}
+
+.footer__icons{
+    margin-bottom: 10px;
+}
+
+.footer__img{
+    width: 30px;
+}
+
+.footer__copyright{
+    font-weight: 300;
+}
