@@ -111,9 +111,9 @@ body {
     margin-bottom: 20px;
 }
 
-.cta {
+.btn_test {
     display: inline-block;
-    background-color: #925c06;
+    background-color: #7e5005;
     justify-self: center;
     color: #fff;
     text-decoration: none;
@@ -121,11 +121,15 @@ body {
     border-radius: 32px;
 }
 
+.btn_test:hover{
+    background-color: #b17007;
+}
+
 
 /* ========= FOOTER ============*/
 /* Footer */
 .footer {
-    background-color: #1D293F;
+    background-color: #7e5005;
 }
 
 .footer__copy {
