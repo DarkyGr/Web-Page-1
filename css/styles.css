@@ -2,7 +2,7 @@
 
 :root {
     --padding-container: 100px 0;
-    --color-title: #001A49;
+    --color-title: #07485B;
 }
 
 body {
@@ -44,7 +44,6 @@ body {
 
 /* ========= HEADER ============*/
 /* Nav */
-
 .nav {
     --padding-container: 0;
     height: 100%;
@@ -89,9 +88,7 @@ body {
     display: var(--show, none);
 }
 
-
 /* Hero Container */
-
 .hero__container {
     max-width: 800px;
     --padding-container: 0;
@@ -125,6 +122,49 @@ body {
     background-color: #b17007;
 }
 
+
+/* ========= MAIN ============*/
+/* Introduction */
+.about {
+    text-align: center;
+}
+
+.subtitle {
+    color: var(--color-title);
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+
+.about__main {
+    padding-top: 80px;
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    gap: 1em;
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+}
+
+.about__icons {
+    display: grid;
+    gap: 1em;
+    justify-items: center;
+    width: 260px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.about__icon {
+    width: 40px;
+}
+
+.about__title{
+    color: #0D6986;
+}
+
+.about__paragraph {
+    line-height: 1.7;
+}
 
 /* ========= FOOTER ============*/
 /* Footer */
