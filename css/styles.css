@@ -223,7 +223,7 @@ body {
 
     .nav__link--menu {
         position: fixed;
-        background-color: #000;
+        background-color: #7e5005;
         top: 0;
         left: 0;
         height: 100%;
@@ -247,9 +247,10 @@ body {
     .nav__close {
         position: absolute;
         top: 30px;
-        right: 30px;
+        right: 33px;
         width: 30px;
         cursor: pointer;
+        width: 40px;
     }
 
     .hero__title {
