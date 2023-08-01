@@ -246,7 +246,7 @@ body {
 
 .questions__arrow{
     border-radius: 50%;
-    background-color: #79acd6;
+    background-color: var(--color-titl);
     width: 25px;
     height: 25px;
     display: flex;
